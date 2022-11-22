@@ -1,6 +1,10 @@
-<<<<<<< HEAD
 import React from "react";
-import Styled from "styled"
-=======
+import styled from "styled-components"
+const Wrapper: any = styled.div`
+{
+  width: 64%;
+  height: ${props: => props.height};
+}
+`
+export default Wrapper;
 
->>>>>>> c36369ac31b9dd29bfa785f58114cc0695a5eeac
