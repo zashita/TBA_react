@@ -5,7 +5,7 @@ export default createGlobalStyle`
         padding: 0;
         outline:0;
         box-sizing:border-box;
-        font-family: ; 
+        font-family: Inter; 
     }
     #root{
         margin:0 auto;
