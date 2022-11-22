@@ -1,1 +1,2 @@
-import styled, { css } from 'styled-components'
+import React from "react";
+import Styled from "styled"
