@@ -14,7 +14,10 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
+<<<<<<< HEAD
     "svgo": "^3.0.2",
+=======
+>>>>>>> c36369ac31b9dd29bfa785f58114cc0695a5eeac
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
