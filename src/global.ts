@@ -10,6 +10,9 @@ const GlobalStyle = createGlobalStyle`
     #root{
         margin:0 auto;
     }
+    html{
+     font-size: 10px;
+    }
     
  `
 export default GlobalStyle;
