@@ -1,24 +1,19 @@
 import React from "react";
-import Wrapper from "./styled";
 import Logo from "../Logo/styled";
-import AtlasLogo from "/img/svg/Logo.svg";
+import Block from "../Block";
+import AtlasLogo from "../img/svg/Logo.svg";
+import SideButton from "../img/svg/Side menu icon.svg"
 
-export interface IProps
-{
-    width?: string
-    height?: string
-    justify?:string
-    display?:string
-    flex?: string
-}
 
-const Header:React.FC<IProps> = () =>{
+
+const Header = () =>{
     return(
-    <Wrapper height = {"70px"} display={"flex"}>
+    <Block height = {"70px"} display={"flex"}>
         <Logo>
-            <img src = {AtlasLogo} alt=""/>
+            <img src={SideButton}/>
+            <img src={AtlasLogo}/>
         </Logo>
-    </Wrapper>
+    </Block>
     )
 }
 export default Header;
