@@ -1,19 +1,17 @@
 import React from "react";
-import Logo from "../Logo/styled";
-import Block from "../Block";
-import AtlasLogo from "../img/svg/Logo.svg";
-import SideButton from "../img/svg/Side menu icon.svg"
+import {Logo} from "../Logo/styled";
+import {LogoBlock, MainHeaderBlock} from "../Block";
+
 
 
 
 const Header = () =>{
     return(
-    <Block height = {"70px"} display={"flex"}>
-        <Logo>
-            <img src={SideButton}/>
-            <img src={AtlasLogo}/>
-        </Logo>
-    </Block>
+    <MainHeaderBlock>
+            <LogoBlock>
+                <Logo/>
+            </LogoBlock>
+    </MainHeaderBlock>
     )
 }
 export default Header;

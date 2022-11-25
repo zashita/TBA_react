@@ -1,8 +1,6 @@
 import React from "react";
 import StyledBlock from "./styled";
-import Logo from "../Logo/styled";
-
-export interface IProps
+export interface IBlockProps
 {
     width?: string
     height?: string
@@ -10,13 +8,26 @@ export interface IProps
     display?:string
     flex?: string
     children:any;
+    margin?: string;
+    position?: string;
+    top?: string;
 }
 
-const Block:React.FC<IProps> = ({children}) =>{
+export const MainHeaderBlock:React.FC<IBlockProps> = ({children}) =>{
     return(
-        <StyledBlock height = {"70px"} display={"flex"}>
+        <StyledBlock height = {"7rem"} width={"64%"} display={"flex"} flex={"wrap"}>
             {children}
         </StyledBlock>
     )
 }
-export default Block;
+export const LogoBlock:React.FC<IBlockProps> = ({children}) =>{
+    return(
+        <StyledBlock height={"3rem"}
+                     display={"flex"} flex={"wrap"} margin={"0"}
+                     width={"17rem"}
+                     top = {"2rem"}>
+            {children}
+        </StyledBlock>
+    )
+}
+
