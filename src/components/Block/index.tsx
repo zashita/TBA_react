@@ -40,4 +40,12 @@ export const ContactBlock:React.FC<IBlockProps> = ({children}) =>{
         </StyledBlock>
     )
 }
+const Block:React.FC<IBlockProps> = ({children}) =>{
+    return(
+        <StyledBlock>
+            {children}
+        </StyledBlock>
+    )
+}
+export default Block;
 

@@ -31,7 +31,7 @@ export const Logo:React.FC<ILogoProps> = ({children}) =>{
 }
 export const SideImg:React.FC<ILogoProps> = ({children}) =>{
     return(
-        <StyledLogo top={"0.7rem"} height={"0.6rem"}>
+        <StyledLogo top={"0.8rem"} height={"0.6rem"}>
             {children}
         </StyledLogo>
 
