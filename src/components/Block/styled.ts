@@ -3,7 +3,6 @@ import styled from "styled-components"
 import {IBlockProps} from "./index";
 const StyledBlock = styled.div<IBlockProps>`
   width: ${props => props.width};
-  border: 1px solid black;
   height: ${props => props.height};
   justify-content: ${props => props.justify};
   display: ${props => props.display};
