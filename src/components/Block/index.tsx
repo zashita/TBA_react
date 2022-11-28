@@ -1,5 +1,6 @@
 import React from "react";
 import StyledBlock from "./styled";
+import BodyBlock from "../Body/styled";
 export interface IBlockProps
 {
     width?: string
@@ -48,4 +49,12 @@ const Block:React.FC<IBlockProps> = ({children}) =>{
     )
 }
 export default Block;
+
+export const BodyWrapper:React.FC<IBlockProps> = ({children})=>{
+    return(
+        <StyledBlock width={"64%"} margin={"12rem auto"} position={"relative"}>
+            {children}
+        </StyledBlock>
+    )
+}
 
