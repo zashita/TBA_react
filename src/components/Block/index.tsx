@@ -12,6 +12,7 @@ export interface IBlockProps
     margin?: string;
     position?: string;
     top?: string;
+    bottom?: string;
 }
 
 export const MainHeaderBlock:React.FC<IBlockProps> = ({children}) =>{
@@ -41,9 +42,9 @@ export const ContactBlock:React.FC<IBlockProps> = ({children}) =>{
         </StyledBlock>
     )
 }
-const Block:React.FC<IBlockProps> = ({children}) =>{
+const Block:React.FC<IBlockProps> = ({children, bottom}) =>{
     return(
-        <StyledBlock>
+        <StyledBlock bottom={bottom}>
             {children}
         </StyledBlock>
     )
@@ -57,4 +58,5 @@ export const BodyWrapper:React.FC<IBlockProps> = ({children})=>{
         </StyledBlock>
     )
 }
+
 

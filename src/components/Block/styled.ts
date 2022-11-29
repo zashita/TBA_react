@@ -10,6 +10,7 @@ const StyledBlock = styled.div<IBlockProps>`
   position: ${props => props.position? props.position:"relative"};
   margin: ${props => props.margin? props.margin: "0 auto"};
   top: ${props => props.top};
+  margin-bottom: ${props => props.bottom? props.bottom:"0"};;
   
   
   
