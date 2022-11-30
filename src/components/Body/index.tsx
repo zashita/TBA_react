@@ -10,13 +10,13 @@ import {BodyElement} from "../InfoBlock";
 
 const Body = () => {
   return (
-      <BodyWrapper>
+      <Block width={"64%"} margin={"12rem auto"} position={"relative"}>
             <Block bottom={"12rem"}>
                 <TitleText>THE ATLAS BUILDING</TitleText>
                 <img src={MainImage} width={"100%"} height={"auto"}/>
             </Block>
             <BodyElement title={"Amenities"}/>
-      </BodyWrapper>
+      </Block>
 
   )
 }

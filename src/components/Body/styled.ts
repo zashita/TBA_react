@@ -10,12 +10,6 @@ export const TitleText = styled.h1`
   font-weight: 600;
   font-size: 9rem;
   line-height: 100%;
-  /* or 90px */
-
-
-  /* Active */
-
-
   max-width: 800px;
   min-height: 180px;
   margin-bottom: 40px;
