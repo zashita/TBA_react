@@ -1,6 +1,5 @@
 import React from "react";
 import {Logo, SideImg} from "../Logo/styled";
-import {LogoBlock, MainHeaderBlock, ContactBlock} from "../Block";
 import Block from "../Block";
 import AtlasLogo from "../img/svg/Logo.svg";
 import SideButton from "../img/svg/Side menu icon.svg";

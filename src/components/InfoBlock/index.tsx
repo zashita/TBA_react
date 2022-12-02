@@ -1,15 +1,21 @@
 import React from "react";
 import {Headliner, HeadlinerText} from "./styled"
-export interface IBodyElementProps
-{
+import Block from "../Block";
+
+export interface IBodyElementProps {
     title: string;
-    blockname?: React.FC;
+    blockname?: any;
+    children?: any;
 }
-export const BodyElement:React.FC<IBodyElementProps> = ({title,}) =>{
-    return(
-        <Headliner>
-            <HeadlinerText>{title}</HeadlinerText>
-        </Headliner>
+
+export const BodyElement: React.FC<IBodyElementProps> = ({title,children}) => {
+    return (
+        <Block>
+            <Headliner>
+                <HeadlinerText>{title}</HeadlinerText>
+            </Headliner>
+            {children}
+        </Block>
 
     )
 }
