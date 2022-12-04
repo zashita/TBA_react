@@ -4,7 +4,7 @@ import StyledBlock from "../Block/styled";
 import Block from "../Block";
 const StyledVideo = styled.iframe`
 width: 100%;
-height: auto;  
+  
   
 
 `
