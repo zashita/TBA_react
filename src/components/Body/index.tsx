@@ -6,6 +6,7 @@ import {BodyElement} from "../InfoBlock";
 import VideoBlock from "../VideoBlock";
 
 const Body = () => {
+
   return (
       <Block width={"64%"} margin={"12rem auto"} position={"relative"}>
             <Block bottom={"12rem"}>
