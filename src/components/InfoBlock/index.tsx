@@ -10,7 +10,7 @@ export interface IBodyElementProps {
 
 export const BodyElement: React.FC<IBodyElementProps> = ({title,children}) => {
     return (
-        <Block>
+        <Block bottom={"12rem"}>
             <Headliner>
                 <HeadlinerText>{title}</HeadlinerText>
             </Headliner>

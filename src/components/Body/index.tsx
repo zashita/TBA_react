@@ -4,6 +4,7 @@ import Block from "../Block";
 import {TitleText} from "./styled";
 import {BodyElement} from "../InfoBlock";
 import VideoBlock from "../VideoBlock";
+import ApartmensBlock from "../ApartmensBlock";
 
 const Body = () => {
 
@@ -16,6 +17,9 @@ const Body = () => {
             <BodyElement title={"Test"}>
                 <VideoBlock/>
             </BodyElement>
+           <BodyElement title={"Apartments"}>
+               <ApartmensBlock/>
+           </BodyElement>
       </Block>
 
   )
