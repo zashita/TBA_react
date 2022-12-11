@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {Container, ProductInfo, ProductImage1, ProductImage2, ProductSize, ProductPhoto3} from "./styled";
 
 const ApartmensBlock = () => {
-    let height: number = (500/1080) * (document.documentElement.clientHeight);
+    /*const [height, setHeight] = useState((500/1920) * (document.documentElement.clientWidth));
+    useEffect(() =>setHeight(height + ((500/1920) * (document.documentElement.clientWidth) - height)) , [height]);*/
     return (
-        <Container height = {height + "px"}>
+        <Container height = {"26vw"}>
             <ProductInfo/>
             <ProductImage1/>
             <ProductImage2/>
