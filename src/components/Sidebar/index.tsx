@@ -8,7 +8,7 @@ const Sidebar:React.FC<{display:string; setDisplay: any }> = (prop) => {
 
     return (
         <StyledSidebar display={prop.display}>
-            <Block width={"64%"} margin={"20px auto 0"}>
+            <Block width={"64.6vw"} margin={"20px auto 0"}>
                 <StyledImg src={CloseButton} onClick={() => prop.setDisplay("none")}/>
                 <ul style={{listStyleType : "none"}}>
                     <StyledItem>
