@@ -32,13 +32,21 @@ export const StyledButton = styled.button`
   width: 21.875vw;
   height: 5.555555555555556vh;
   margin: 0 19.84375vw;
-  border: 1px solid black;
+  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1.574074074074074vh;
   line-height: 130%;
-  color: black;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  
 
+  :hover {
+    border: 0;
+    transition: 0.3s;
+  }
+ 
 
 `

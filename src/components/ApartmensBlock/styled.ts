@@ -51,4 +51,6 @@ export const StyledText = styled.p<{margin_left?:string, color?:string}>`
   line-height: 130%;
   color: ${props => props.color? props.color:"#1F1F1F"};
   margin-left: ${props => props.margin_left? props.margin_left: 0};
+  
+  
 `
