@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-export const HeadlinerText = styled.h2`
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px; 
+export const HeadlinerText = styled.h2<{size?:string; height?:string; weight?: number}>`
+  font-weight:${props => props.weight? props.weight: 600};
+  font-size: ${props => props.size? props.size: "2.083333333333333vw"};
+  line-height: ${props => props.height? props.height: "2.083333333333333vw"}; 
   font-family: Inter;
     
     

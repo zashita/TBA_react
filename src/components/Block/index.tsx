@@ -13,6 +13,10 @@ export interface IBlockProps
     position?: string;
     top?: string;
     bottom?: string;
+    background_color?: string;
+    onMouseDown?:any;
+    border?:string;
+    align_items?:string;
 }
 
 
