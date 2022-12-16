@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 export const HeadlinerText = styled.h2<{size?:string; height?:string; weight?: number}>`
   font-weight:${props => props.weight? props.weight: 600};

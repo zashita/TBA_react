@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 export const StyledContact = styled.div<{display:string}>`
-    top:0;
+  top:0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -27,10 +27,18 @@ export const StyledInput = styled.input`
   font-size: 1.574074074074074vh;
   line-height: 130%;
   color: #9EA3AA;
-  
-  
-  
-  
-    
-    
-    `
+`
+export const StyledButton = styled.button`
+  width: 21.875vw;
+  height: 5.555555555555556vh;
+  margin: 0 19.84375vw;
+  border: 1px solid black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.574074074074074vh;
+  line-height: 130%;
+  color: black;
+
+
+`
