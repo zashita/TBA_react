@@ -40,12 +40,19 @@ export const StyledButton = styled.button`
   line-height: 130%;
   color: white;
   background-color: black;
-  border: 1px solid black;
-  
+  border:0;
+
+
+
 
   :hover {
-    border: 0;
+    background-color: rgba(53,37,37,0.84);
     transition: 0.3s;
+  }
+  
+  :active {
+    border: 1px solid black;
+    transition: 0.5s;
   }
  
 
